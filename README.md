@@ -1,6 +1,9 @@
-# Aventuras de Melo en Murcia
+# Dia de Melón
 
-¡Bienvenido a "Aventuras de Melo en Murcia"!
+¡Bienvenido a "Dia de Melón"!
+
+<!-- image in README/img -->
+![image](README/img/player.png)
 
 ## Descripción del Juego
 
@@ -19,5 +22,7 @@ Embárcate en una emocionante aventura gráfica donde vivirás un día en la vid
 1. Descarga el juego [aquí](https://alexjl09.itch.io/dia-de-meln).
 2. Ejecuta el archivo principal.
 3. Disfruta de las Aventuras de Melo en Murcia.
+
+![image](README/img/player.gif)
 
 ¡Diviértete explorando la ciudad y sumérgete en las emocionantes experiencias de Melo!

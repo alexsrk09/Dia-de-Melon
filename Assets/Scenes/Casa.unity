@@ -2138,7 +2138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2212319388624838576, guid: 6348806bf7f1b1945a6100871f70c901, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2212319388624838576, guid: 6348806bf7f1b1945a6100871f70c901, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3384,13 +3384,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.11, y: 0.16}
-      - {x: -0.11, y: -0.099999994}
-      - {x: -0.06, y: -0.16}
-      - {x: 0.07, y: -0.16}
-      - {x: 0.11, y: -0.13}
-      - {x: 0.11, y: 0.06}
-      - {x: 0.08, y: 0.16}
+    - - {x: -0.050408706, y: 0.11651388}
+      - {x: -0.048796996, y: -0.09355745}
+      - {x: -0.02456909, y: -0.12134519}
+      - {x: 0.032955475, y: -0.12134567}
+      - {x: 0.043965682, y: -0.0945667}
+      - {x: 0.05201912, y: 0.0048618317}
+      - {x: 0.053630218, y: 0.06644255}
+      - {x: 0.05423172, y: 0.118124634}
   m_UseDelaunayMesh: 0
 --- !u!1 &499403403
 GameObject:
@@ -36777,7 +36778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7229841620085464540, guid: f9dc3f1e029183e4ea1a0f2e2d70fbfc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7229841620085464540, guid: f9dc3f1e029183e4ea1a0f2e2d70fbfc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -55611,7 +55612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2857302050140314031, guid: 12d2969d084f3584bb7eb9996c34b9a6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2857302050140314031, guid: 12d2969d084f3584bb7eb9996c34b9a6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -57241,9 +57242,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.19999999, y: 0.29999998}
-      - {x: -0.19999999, y: -0.31}
-      - {x: 0.19999999, y: -0.31}
-      - {x: 0.21, y: -0.28}
+      - {x: -0.19659728, y: -0.18746334}
+      - {x: 0.19999999, y: -0.19086748}
+      - {x: 0.19638534, y: -0.17788628}
       - {x: 0.21, y: 0.29999998}
     - - {x: -0.13, y: 0.13}
       - {x: -0.12, y: 0.12}
