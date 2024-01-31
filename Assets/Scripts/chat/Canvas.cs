@@ -29,6 +29,12 @@ public class Canvas : MonoBehaviour
 	[Header ("Sombra Padre")]
 	[SerializeField] private Sprite characterFace4Normal;
 
+	[Header ("Xbox")]
+	[SerializeField] private Sprite xobxSprite;
+
+	[Header ("Playstation")]
+	[SerializeField] private Sprite playstationSprite;
+
 	void Start(){
 		
 	}
@@ -52,60 +58,6 @@ public class Canvas : MonoBehaviour
 						break;
 					case 4:
 						imageLeft.GetComponent<Image>().sprite = characterFace1Triste;
-						break;
-					default: 
-						imageLeft.GetComponent<Image>().sprite = emptySprite;
-						break;
-				}
-				break;
-			case 2:
-				imageRight.GetComponent<Image>().sprite = emptySprite;
-				switch (idFaceLeft)
-				{
-					case 1:
-						imageLeft.GetComponent<Image>().sprite = characterFace2Normal;
-						break;
-					case 2:
-						imageLeft.GetComponent<Image>().sprite = characterFace2Sorpresa;
-						break;
-					case 3:
-						imageLeft.GetComponent<Image>().sprite = characterFace2Enfadado;
-						break;
-					case 4:
-						imageLeft.GetComponent<Image>().sprite = characterFace2Normal;
-						break;
-					default: 
-						imageLeft.GetComponent<Image>().sprite = emptySprite;
-						break;
-				}
-				break;
-			case 3:
-				imageRight.GetComponent<Image>().sprite = emptySprite;
-				switch (idFaceLeft)
-				{
-					case 1:
-						imageLeft.GetComponent<Image>().sprite = characterFace3Normal;
-						break;
-					case 2:
-						imageLeft.GetComponent<Image>().sprite = characterFace3Sorpresa;
-						break;
-					case 3:
-						imageLeft.GetComponent<Image>().sprite = characterFace3Enfadado;
-						break;
-					case 4:
-						imageLeft.GetComponent<Image>().sprite = characterFace3Triste;
-						break;
-					default: 
-						imageLeft.GetComponent<Image>().sprite = emptySprite;
-						break;
-				}
-				break;
-			case 4:
-				imageRight.GetComponent<Image>().sprite = emptySprite;
-				switch (idFaceLeft)
-				{
-					case 1:
-						imageLeft.GetComponent<Image>().sprite = characterFace4Normal;
 						break;
 					default: 
 						imageLeft.GetComponent<Image>().sprite = emptySprite;
@@ -188,6 +140,30 @@ public class Canvas : MonoBehaviour
 				{
 					case 1:
 						imageRight.GetComponent<Image>().sprite = characterFace4Normal;
+						break;
+					default: 
+						imageRight.GetComponent<Image>().sprite = emptySprite;
+						break;
+				}
+				break;
+			case 5:
+				imageLeft.GetComponent<Image>().sprite = emptySprite;
+				switch (idFaceRight)
+				{
+					case 1:
+						imageRight.GetComponent<Image>().sprite = xobxSprite;
+						break;
+					default: 
+						imageRight.GetComponent<Image>().sprite = emptySprite;
+						break;
+				}
+				break;
+			case 6:
+				imageLeft.GetComponent<Image>().sprite = emptySprite;
+				switch (idFaceRight)
+				{
+					case 1:
+						imageRight.GetComponent<Image>().sprite = playstationSprite;
 						break;
 					default: 
 						imageRight.GetComponent<Image>().sprite = emptySprite;
